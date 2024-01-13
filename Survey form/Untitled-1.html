@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Untitled-2.css" />
+</head>
+
+<body>
+    <div>
+        <header class="header">
+            <h1 class="text-center" id="title">What Makes A BJJ Good?</h1>
+            <p class="text-center" id="description"><span>What does idea of a good gym look like?</span></p>
+        </header>
+    </div>
+    <section>
+        <form id="survey-form">
+
+            <div class="user-input form-group">
+                <label id="name-label">Name:</label>
+                <input placeholder="Enter your name" id="name" required type="text">
+            </div>
+
+            <div class="user-input form-group">
+                <label id="email-label">Email:</label>
+                <input placeholder="Enter your Email" required id="email" type="email">
+            </div>
+
+            <div class="user-input form-group">
+                <label id="number-label">Age:</label>
+                <input placeholder="Age" id="number" min="13" max="89" type="number">
+            </div>
+            <div class="form-group">
+                <p>Do you train Gi or No-Gi</p>
+                <select name="uniform" id="dropdown">
+
+                    <option disabled selected value>Gi/No-Gi</option>
+
+                    <option value="gi">GI</option>
+
+                    <option value='nogi'>NO-GI</option>
+
+                    <option value='both'>Both</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Would you recomend your gym or bjj to friends and family?</p>
+
+                <label><input class="input-radio" value="no" type="radio" name="user-reccomend">NO</label>
+
+                <label><input class="input-radio" checked value="yes" type="radio" name="user-reccomend">YES</label>
+            </div>
+            <div class="form-group">
+                <p>What could your gym use? <span class="clue">(check all that apply)</span></p>
+
+                <label><input value="Showers" class="input-checkbox" type="checkbox">Showers</label>
+
+                <label><input value="More-mat-space" class="input-checkbox" type="checkbox">More mat space</label>
+
+                <label><input value="Higher-tournament-particpaction" class="input-checkbox" type="checkbox">Higher
+                    Tournament particpation</label>
+
+                <label><input value="Freindlier-atmosphere" class="input-checkbox" type="checkbox">Freindlier
+                    atmosphere</label>
+
+                <label><input value="Female-diversity" class="input-checkbox" type="checkbox">Female diversity</label>
+
+                <label><input value="Weight-diversity" class="input-checkbox" type="checkbox">Weight diversity</label>
+
+                <label><input value="More-coaches" class="input-checkbox" type="checkbox">More coaches</label>
+            </div>
+            <div class="text-center form-group">
+                <p>Additional comments or feedback</p>
+                <textarea name="comment" id="comments" placeholder="Write your comments here..." cols="30"
+                    rows="10"></textarea>
+            </div>
+            <div class="text-center form-group">
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </section>
+
+</body>
+
+</html>

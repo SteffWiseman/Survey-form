@@ -1,0 +1,53 @@
+body {
+    background-image: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=pexels-johannes-plenio-1103970.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.submit-button {
+    background-color: lightgreen;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: auto;
+    border: none;
+}
+
+.header {
+    background-color: black;
+    opacity: 0.7;
+    color: aqua;
+    text-align: center;
+    margin: auto 30% auto 30%;
+    border-radius: 40px;
+}
+
+form {
+    color: rgb(169, 111, 25);
+    background-color: rgb(174, 174, 179);
+    opacity: 0.8;
+    margin: auto 15% auto 15%;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+label {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    font-family: cursive;
+}
